@@ -1,0 +1,73 @@
+  Assessment 
+General Instructions: Develop a program utilizing JavaScript to solve the problems stated below. All files must be submitted in your github repository and link it to your google classroom. 
+ 
+1.	Differentiation of let, const, and var in JavaScript 
+	In scoping “let” keyword is a block-scoped, a variable that declared with “let” keyword only accessible within the block in which they are defined, for example in loops. “Const” keyword or constant is the same as let, it is also block-scoped. While “var” keyword is not because var is a function-scoped. A variables declared with var are scoped to the function in which they are declared. A function-scoped or var does not respect block-scoped like loops and conditional. 
+
+	When we talk about re-assigning “let” keyword can be re-aasigned within it’s block scope but cannot be re-declared within the same scope. “Var” keyword can be re-assigned and re-declared with the same scope without causing any errors. In “const” keyword, you can change if the const hold an object or array, only the const of the object/array but you cannot in its reference itself.
+
+	In terms of best practices and security “const” keyword is the most secure option. From the word “const” means constant values that should not be re-aasigned. It is most secure for values that should not change or is not changeable. If const is the most secure, “var” keyword is the less or least secure due to the lack of block scope. And “let” keyword is safer because it does not allow re-declaration (as mention earlier) in the same block and is block scoped. 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.Concept of Falsy Values in JavaScript 
+When we say falsy, meaning they evaluated to false when converted to a boolean. For example; undefined that indicates a variable that has been declared but is not yet assigned a value; “” it is an empty string; NaN is result of an invalid or undefined mathematical operation, representes as “Not-a-Number”. There are more falsy values like zero, negative zero l, null,nand false. In conditional statement, the condition will not be executed if the variable holds a falsy values by that it leads to the execution of “else” block if present.
+
+THREE (3) EXAMPLES OF FALSY VALUES:
+	undefined - indicates a variable that has been declared but is not yet assigned a value
+	“”,’,’’ - it is an empty string
+	NaN - result of an invalid or undefined mathematical operation, representes as “Not-a-Number”
+
+
+
+
+REFERENCES:
+https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript/  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
